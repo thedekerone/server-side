@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://dekker:internetes@cluster0-iubit.mongodb.net/blog?retryWrites=true&w=majority",
+  "jwtSecret": "sl_myJwtSecret"
+}
