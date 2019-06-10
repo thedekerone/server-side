@@ -23,8 +23,8 @@ const ItemSchema = new Schema({
     type: String,
     default: null
   },
-  headline: {
-    type: Boolean,
+  tag: {
+    type: String,
     default: false
   },
   

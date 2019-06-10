@@ -22,7 +22,7 @@ router.post('/', auth, (req, res) => {
     title: req.body.title,
     imgPath: req.body.imgPath,
     content: req.body.content,
-    headline: req.body.headline,
+    tag: req.body.tag,
     path: req.body.path
   });
 

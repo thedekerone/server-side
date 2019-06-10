@@ -101,13 +101,13 @@ class ItemModal extends Component {
                 
                 <Label for='content'>content</Label>
                 <Quill returnf={(e)=>{this.setState({content:e})}}></Quill>
-                <Label for='headline'>head</Label>
-                <Input
-                  type='checkbox'
-                  name='headline'
-                  id='headline'
-                  onChange={this.onCheck}
-                />
+                <Label for='tag'>Tag:   </Label>
+                <select defaultValue='headline' name='tag' id='tag' onChange={this.onChange}>
+                  <option value="headline">Headline</option>
+                  <option value="side">sideList</option>
+                  <option value="gallery">Gallery</option>
+                  <option value="pride">Pride</option>
+                </select>
                 
                 <Button color='dark' style={{ marginTop: '2rem' }} block>
                   Add Item
