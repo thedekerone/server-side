@@ -7,6 +7,10 @@ const ItemSchema = new Schema({
     type: String,
 
   },
+  path: {
+    type: String,
+
+  },
   date: {
     type: Date,
     default: Date.now

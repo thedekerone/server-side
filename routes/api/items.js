@@ -22,7 +22,8 @@ router.post('/', auth, (req, res) => {
     title: req.body.title,
     imgPath: req.body.imgPath,
     content: req.body.content,
-    headline: req.body.headline
+    headline: req.body.headline,
+    path: req.body.path
   });
 
   newItem.save().then(item => res.json(item));

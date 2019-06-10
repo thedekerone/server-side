@@ -51,8 +51,8 @@ class ItemModal extends Component {
       title: this.state.title,
       imgPath: this.state.imgPath,
       content: this.state.content,
-      headline: this.state.headline
-
+      headline: this.state.headline,
+      path: '/' +this.state.title
     };
 
     // Add item via addItem action
